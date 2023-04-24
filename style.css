@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap');
+h1{
+  background-color: palevioletred;
+  font-family: "Cherry Swash", cursive;
+}
+
+body{
+  background-color: cornsilk;
+  color: black;
+}
+
+.emphasis{
+  color: crimson;
+  font-size: 150%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.box {
+  height: 500px;
+  position: relative;
+}
+
+.menu {
+  background-color: palevioletred;
+  width: 20%;
+  height: 500px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.menu>label {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 100%;
+  height: 500px;
+}
+
+.btn>input {
+  display: block;
+  padding: 20px;
+  cursor: pointer;
+  width: 80%;
+  height: 500px;
+  margin: 4% 0;
+  justify-content: space-between;
+  border-radius: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 100%;
+  font-display:unset;
+}
+
+.strawberry{
+  background-color: lightpink;
+}
+
+.chocolate{
+  background-color: chocolate;
+}
+
+.vanilla{
+  background-color: antiquewhite;
+}
+
+.matcha{
+  background-color: forestgreen;
+}
+
+.eating{
+  background-color: orange;
+  float: none;
+  display: block;
+  padding: 20px;
+  width: 80%;
+  height: 70px;
+  cursor: pointer;
+  justify-content: space-between;
+  border-radius: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 100%;
+}
+
+.cone{
+  height: 250px;
+  position:absolute;
+  bottom: 0px;
+}
+
+.ice {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  position:relative
+}
+
+.first {
+  height: 250px;
+  position:absolute;
+  bottom: 100px;
+}
+
+.second {
+  height: 250px;
+  position:absolute;
+  bottom: 190px;
+}
+
+.third {
+  height: 250px;
+  position:absolute;
+  bottom: 280px;
+}
