@@ -9,6 +9,7 @@ const new_element2 = document.createElement("img");
 const new_element3 = document.createElement("img");
 let clickcount = 1
 
+//ストロベリーのボタンを押した回数だけストロベリーアイスが表示される。
 strawberry.addEventListener("click", function() {
   if (clickcount === 1 ) {
     new_element1.src = "ストロベリー.PNG"
@@ -30,6 +31,7 @@ strawberry.addEventListener("click", function() {
   }
 })
 
+//バニラのボタンを押した回数だけバニラアイスが表示される。
 vanilla.addEventListener("click", function() {
   if (clickcount === 1 ) {
     new_element1.src = "バニラ.PNG"
@@ -51,6 +53,7 @@ vanilla.addEventListener("click", function() {
   }
 })
 
+//チョコレートのボタンを押した回数だけチョコレートアイスが表示される。
 chocolate.addEventListener("click", function() {
   if (clickcount === 1 ) {
     new_element1.src = "チョコレート.PNG"
@@ -72,6 +75,7 @@ chocolate.addEventListener("click", function() {
   }
 })
 
+//抹茶のボタンを押した回数だけ抹茶アイスが表示される。
 matcha.addEventListener("click", function() {
   if (clickcount === 1 ) {
     new_element1.src = "抹茶.PNG"
